@@ -65,7 +65,6 @@ Instance Lifecycle Management
 aws ec2 start-instances --instance-ids <instance-id>
 
 ### ⏹ Stop EC2 Instance
-```bash
 aws ec2 stop-instances --instance-ids <instance-id>
 
 📄 Describe EC2 Instances
