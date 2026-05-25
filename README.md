@@ -16,7 +16,6 @@ It automates EC2 instance operations such as starting, stopping, and monitoring 
 
 ## 🧠 Architecture Flow
 
-
 User (Terminal)
 ↓
 AWS CLI Commands
@@ -26,7 +25,6 @@ IAM Authentication
 AWS EC2 Service
 ↓
 Instance Lifecycle Management
-
 
 ---
 
@@ -63,11 +61,19 @@ Instance Lifecycle Management
 
 ### Start EC2 Instance
 ```bash
+## 🔧 AWS CLI Commands
+
+### ▶️ Start EC2 Instance
+```bash
 aws ec2 start-instances --instance-ids <instance-id>
-Stop EC2 Instance
+⏹ Stop EC2 Instance
+```bash
 aws ec2 stop-instances --instance-ids <instance-id>
-Describe EC2 Instances
+📄 Describe EC2 Instances
+```bash
 aws ec2 describe-instances
+
+
 🤖 Automation Script
 #!/bin/bash
 
@@ -80,12 +86,15 @@ echo "Stopping EC2 instance..."
 aws ec2 stop-instances --instance-ids <instance-id>
 
 echo "Automation Completed!"
+
 📁 Project Structure
 aws-cli-automation/
 │
 ├── automation.sh
 ├── README.md
 └── screenshots/
+
+
 📸 Screenshots
 1️⃣ AWS CLI Version Check
 
@@ -110,6 +119,7 @@ IAM authentication flow
 Bash scripting automation
 Cloud infrastructure basics
 DevOps workflow using terminal
+
 🏁 Conclusion
 
 This project demonstrates real-world AWS cloud automation using CLI instead of GUI, simulating DevOps-style infrastructure management.
