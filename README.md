@@ -71,6 +71,7 @@ aws ec2 stop-instances --instance-ids <instance-id>
 aws ec2 describe-instances
 
 🤖 Automation Script
+```bash
 #!/bin/bash
 
 echo "Checking EC2 instances..."
@@ -82,6 +83,7 @@ echo "Stopping EC2 instance..."
 aws ec2 stop-instances --instance-ids <instance-id>
 
 echo "Automation Completed!"
+```
 
 📁 PROJECT STRUCTURE
 
@@ -94,28 +96,28 @@ aws-cli-automation/
 📸 SCREENSHOTS
 
 1️⃣ AWS CLI Version Check  
-![AWS CLI Version Check](1-aws-cli-version.png)
+![AWS CLI Version Check](screenshots/1-aws-cli-version.png)
 
 2️⃣ AWS Configuration  
-![AWS Configuration](2-aws-configure-list.png)
+![AWS Configuration](screenshots/2-aws-configure-list.png)
 
 3️⃣ EC2 Instance Details  
-![EC2 Instance Details](3-ec2-instance-details.png)
+![EC2 Instance Details](screenshots/3-ec2-instance-details.png)
 
 4️⃣ EC2 Instance Running  
-![EC2 Instance Running](4-ec2-instance-running.png)
+![EC2 Instance Running](screenshots/4-ec2-instance-running.png)
 
 5️⃣ EC2 Instance Stopped  
-![EC2 Instance Stopped](5-ec2-instance-stopped.png)
+![EC2 Instance Stopped](screenshots/5-ec2-instance-stopped.png)
 
 6️⃣ Automation Script Code  
-![Automation Script Code](6-automation-script-code.png)
+![Automation Script Code](screenshots/6-automation-script-code.png)
 
 7️⃣ Automation Script Execution  
-![Automation Script Execution](7-automation-script-execution.png)
+![Automation Script Execution](screenshots/7-automation-script-execution.png)
 
 8️⃣ EC2 Running After Automation  
-![EC2 Running After Automation](8-ec2-running-after-automation.png)
+![EC2 Running After Automation](screenshots/8-ec2-running-after-automation.png)
 
 ---
 
