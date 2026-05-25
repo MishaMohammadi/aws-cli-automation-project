@@ -59,48 +59,48 @@ Instance Lifecycle Management
 
 ## 🔧 Commands Used
 
-🔐 AWS Configuration
+1. AWS Configuration
 ```bash
 aws configure
 ```
 
 Used to set up AWS credentials, region, and output format.
 
-📄 EC2 Instance Details
+2. EC2 Instance Details
 ```bash
 aws ec2 describe-instances
 ```
 
 Fetches details of all EC2 instances like Instance ID, state, type, and public IP.
 
-▶️ Start EC2 Instance
+3. Start EC2 Instance
 ```bash
 aws ec2 start-instances --instance-ids <instance-id>
 ```
 
 Starts a stopped EC2 instance.
 
-⏹ Stop EC2 Instance
+4. Stop EC2 Instance
 ```bash
 aws ec2 stop-instances --instance-ids <instance-id>
 ```
 
 Stops a running EC2 instance to save cost.
 
-🆔 Get Instance ID (optional useful command)
+5. Get Instance ID (optional useful command)
 ```bash
 aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
 ```
 
 Used to filter and extract only Instance IDs.
 
-📊 Check Instance State
+6. Check Instance State
 ```bash
 aws ec2 describe-instances --query "Reservations[*].Instances[*].State.Name"
 ```
 Shows whether instance is running, stopped, or terminated.
 
-🤖 Script Execution
+7. Script Execution
 ```bash
 bash automation.sh
 ```
@@ -108,7 +108,8 @@ Runs the automation script that performs EC2 management tasks automatically.
 
 ---
 
-🤖 Automation Script
+## 🤖 Automation Script
+
 ```bash
 #!/bin/bash
 
@@ -123,6 +124,8 @@ aws ec2 stop-instances --instance-ids <instance-id>
 echo "Automation Completed!"
 ```
 
+---
+
 ## 📁 PROJECT STRUCTURE
 
 aws-cli-automation/
@@ -130,6 +133,8 @@ aws-cli-automation/
 ├── automation.sh
 ├── README.md
 └── screenshots/
+
+---
 
 ## 📸 SCREENSHOTS
 
@@ -185,5 +190,7 @@ This project demonstrates real-world AWS cloud automation using CLI instead of G
 ## 👤 AUTHOR
 
 Name: Misha Mohammadi
+
 GitHub: https://github.com/MishaMohammadi
+
 Project: AWS CLI Automation Project
