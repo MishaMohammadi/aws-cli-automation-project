@@ -128,7 +128,7 @@ echo "Automation Completed!"
 
 ## 📁 PROJECT STRUCTURE
 
-aws-cli-automation/
+aws-cli-automation/<br>
 │<br>
 ├── automation.sh<br>
 ├── README.md<br>
