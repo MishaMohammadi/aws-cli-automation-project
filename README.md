@@ -59,23 +59,20 @@ Instance Lifecycle Management
 
 ## 🔧 Commands Used
 
-### Start EC2 Instance
-```bash
 ## 🔧 AWS CLI Commands
 
 ### ▶️ Start EC2 Instance
 ```bash
 aws ec2 start-instances --instance-ids <instance-id>
-⏹ Stop EC2 Instance
+
+### ⏹ Stop EC2 Instance
 ```bash
 aws ec2 stop-instances --instance-ids <instance-id>
+
 📄 Describe EC2 Instances
-```bash
 aws ec2 describe-instances
 
-
-## 🤖 Automation Script
-
+🤖 Automation Script
 #!/bin/bash
 
 echo "Checking EC2 instances..."
@@ -88,32 +85,26 @@ aws ec2 stop-instances --instance-ids <instance-id>
 
 echo "Automation Completed!"
 
-## 📁 Project Structure
+📁 PROJECT STRUCTURE
+
 aws-cli-automation/
 │
 ├── automation.sh
 ├── README.md
 └── screenshots/
 
+📸 SCREENSHOTS
 
-## 📸 Screenshots
 1️⃣ AWS CLI Version Check
-
 2️⃣ AWS Configuration
-
 3️⃣ EC2 Instance Details
-
 4️⃣ EC2 Instance Running
-
 5️⃣ EC2 Instance Stopped
-
 6️⃣ Automation Script Code
-
 7️⃣ Automation Script Execution
-
 8️⃣ EC2 Running After Automation
 
-## 📊 What I Learned
+📊 WHAT I LEARNED
 AWS CLI fundamentals
 EC2 instance lifecycle management
 IAM authentication flow
@@ -121,11 +112,11 @@ Bash scripting automation
 Cloud infrastructure basics
 DevOps workflow using terminal
 
-## 🏁 Conclusion
+🏁 CONCLUSION
 
 This project demonstrates real-world AWS cloud automation using CLI instead of GUI, simulating DevOps-style infrastructure management.
 
-Author
+👤 AUTHOR
 
 Name: Misha Mohammadi
 GitHub: https://github.com/MishaMohammadi
