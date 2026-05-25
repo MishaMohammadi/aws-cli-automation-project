@@ -8,22 +8,25 @@
 
 ## 📌 Project Overview
 
-This project demonstrates **AWS infrastructure automation** using **AWS CLI and Bash scripting**.
+This project demonstrates **AWS infrastructure automation** using AWS CLI and Bash scripting.
 
-It automates EC2 instance operations like start, stop, and status check using terminal commands instead of AWS Console.
+It automates EC2 instance operations such as starting, stopping, and monitoring instances using terminal commands instead of AWS Console.
 
 ---
 
 ## 🧠 Architecture Flow
+
+
 User (Terminal)
 ↓
 AWS CLI Commands
 ↓
-AWS IAM Authentication
+IAM Authentication
 ↓
 AWS EC2 Service
 ↓
-EC2 Instance Lifecycle Management
+Instance Lifecycle Management
+
 
 ---
 
@@ -31,7 +34,7 @@ EC2 Instance Lifecycle Management
 
 - AWS CLI
 - Amazon EC2
-- IAM (Access Management)
+- IAM (Identity and Access Management)
 - Bash Scripting
 - Ubuntu Terminal
 - Git & GitHub
@@ -42,9 +45,10 @@ EC2 Instance Lifecycle Management
 
 - AWS CLI configuration using IAM user
 - EC2 instance lifecycle management
-- Start & Stop EC2 via CLI
-- Automation using Bash script
-- Real-time AWS resource control from terminal
+- Start EC2 instance using CLI
+- Stop EC2 instance using CLI
+- Automate EC2 operations using Bash script
+- Real-time cloud resource control from terminal
 
 ---
 
@@ -95,25 +99,23 @@ aws-cli-automation/
 
 6️⃣ Automation Script Code
 
-7️⃣ Script Execution
+7️⃣ Automation Script Execution
 
 8️⃣ EC2 Running After Automation
 
-What I Learned
-AWS CLI usage in real projects
-EC2 lifecycle management
+📊 What I Learned
+AWS CLI fundamentals
+EC2 instance lifecycle management
 IAM authentication flow
 Bash scripting automation
 Cloud infrastructure basics
-DevOps-style workflow
+DevOps workflow using terminal
 🏁 Conclusion
 
-This project demonstrates hands-on AWS cloud automation skills using CLI instead of GUI, simulating real DevOps workflows.
+This project demonstrates real-world AWS cloud automation using CLI instead of GUI, simulating DevOps-style infrastructure management.
 
----
+Author
 
-## 👨‍💻 Author
-
-**Name:** Misha Mohammadi  
-**GitHub:** https://github.com/Misha Mohammadi 
-**Project:** AWS CLI Automation Project  
+Name: Misha Mohammadi
+GitHub: https://github.com/MishaMohammadi
+Project: AWS CLI Automation Project
