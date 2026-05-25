@@ -95,14 +95,31 @@ aws-cli-automation/
 
 📸 SCREENSHOTS
 
-1️⃣ AWS CLI Version Check
-2️⃣ AWS Configuration
-3️⃣ EC2 Instance Details
-4️⃣ EC2 Instance Running
-5️⃣ EC2 Instance Stopped
-6️⃣ Automation Script Code
-7️⃣ Automation Script Execution
-8️⃣ EC2 Running After Automation
+1️⃣ AWS CLI Version Check  
+![AWS CLI Version Check](aws-cli-version-check.png)
+
+2️⃣ AWS Configuration  
+![AWS Configuration](aws-configuration.png)
+
+3️⃣ EC2 Instance Details  
+![EC2 Instance Details](ec2-instance-details.png)
+
+4️⃣ EC2 Instance Running  
+![EC2 Instance Running](ec2-instance-running.png)
+
+5️⃣ EC2 Instance Stopped  
+![EC2 Instance Stopped](ec2-instance-stopped.png)
+
+6️⃣ Automation Script Code  
+![Automation Script Code](automation-script-code.png)
+
+7️⃣ Automation Script Execution  
+![Automation Script Execution](automation-script-execution.png)
+
+8️⃣ EC2 Running After Automation  
+![EC2 Running After Automation](ec2-running-after-automation.png)
+
+---
 
 📊 WHAT I LEARNED
 AWS CLI fundamentals
