@@ -36,7 +36,44 @@ The project automates EC2 instance management using terminal commands and shell 
 
 ## Commands Used
 
-### Start EC2 Instance
+## Commands Used
 
+### Configure AWS CLI
+```bash
+aws configure
+```
+
+---
+
+### Describe EC2 Instances
+```bash
+aws ec2 describe-instances
+```
+
+---
+
+### Start EC2 Instance
 ```bash
 aws ec2 start-instances --instance-ids <instance-id>
+```
+
+---
+
+### Stop EC2 Instance
+```bash
+aws ec2 stop-instances --instance-ids <instance-id>
+```
+
+---
+
+### Check Instance Status
+```bash
+aws ec2 describe-instance-status --instance-ids <instance-id>
+```
+
+---
+
+### Run Bash Script
+```bash
+bash script.sh
+```
