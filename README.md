@@ -174,11 +174,15 @@ aws-cli-automation/
 
 ## 📊 WHAT I LEARNED
 
-AWS CLI fundamentals
-EC2 instance lifecycle management
+- AWS CLI fundamentals
+- EC2 instance lifecycle management
+
 IAM authentication flow
+
 Bash scripting automation
+
 Cloud infrastructure basics
+
 DevOps workflow using terminal
 
 ---
