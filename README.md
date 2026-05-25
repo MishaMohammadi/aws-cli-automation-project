@@ -62,7 +62,6 @@ Instance Lifecycle Management
 ## 🔧 AWS CLI Commands
 
 ### ▶️ Start EC2 Instance
-```bash
 aws ec2 start-instances --instance-ids <instance-id>
 
 ### ⏹ Stop EC2 Instance
