@@ -20,11 +20,13 @@ User (Terminal)
 
 ↓
 AWS CLI Commands
-↓
 
+↓
 IAM Authentication
+
 ↓
 AWS EC2 Service
+
 ↓
 Instance Lifecycle Management
 
@@ -133,11 +135,8 @@ echo "Automation Completed!"
 aws-cli-automation/
 
 │
-
 ├── automation.sh
-
 ├── README.md
-
 └── screenshots/
 
 ---
