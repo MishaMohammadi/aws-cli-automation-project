@@ -16,14 +16,14 @@ It automates EC2 instance operations such as starting, stopping, and monitoring 
 
 ## 🧠 Architecture Flow
 
-User (Terminal)
-↓
-AWS CLI Commands
-↓
-IAM Authentication
-↓
-AWS EC2 Service
-↓
+User (Terminal)<br>
+↓<br>
+AWS CLI Commands<br>
+↓<br>
+IAM Authentication<br>
+↓<br>
+AWS EC2 Service<br>
+↓<br>
 EC2 Instance Lifecycle Management
 
 ---
@@ -59,48 +59,48 @@ EC2 Instance Lifecycle Management
 
 ## 🔧 Commands Used
 
-1. AWS Configuration
+**1. AWS Configuration**
 ```bash
 aws configure
 ```
 
 Used to set up AWS credentials, region, and output format.
 
-2. EC2 Instance Details
+**2. EC2 Instance Details**
 ```bash
 aws ec2 describe-instances
 ```
 
 Fetches details of all EC2 instances like Instance ID, state, type, and public IP.
 
-3. Start EC2 Instance
+**3. Start EC2 Instance**
 ```bash
 aws ec2 start-instances --instance-ids <instance-id>
 ```
 
 Starts a stopped EC2 instance.
 
-4. Stop EC2 Instance
+**4. Stop EC2 Instance**
 ```bash
 aws ec2 stop-instances --instance-ids <instance-id>
 ```
 
 Stops a running EC2 instance to save cost.
 
-5. Get Instance ID 
+**5. Get Instance ID** 
 ```bash
 aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
 ```
 
 Used to filter and extract only Instance IDs.
 
-6. Check Instance State
+**6. Check Instance State**
 ```bash
 aws ec2 describe-instances --query "Reservations[*].Instances[*].State.Name"
 ```
 Shows whether instance is running, stopped, or terminated.
 
-7. Script Execution
+**7. Script Execution**
 ```bash
 bash automation.sh
 ```
@@ -129,48 +129,44 @@ echo "Automation Completed!"
 ## 📁 PROJECT STRUCTURE
 
 aws-cli-automation/
-
-│
-
-├── automation.sh
-
-├── README.md
-
-└── screenshots/
+│<br>
+├── automation.sh<br>
+├── README.md<br>
+└── screenshots/<br>
 
 ---
 
 ## 📸 SCREENSHOTS
 
-1️⃣ AWS CLI Version Check  
+**1️⃣ AWS CLI Version Check**
 
 ![AWS CLI Version Check](screenshots/1-aws-cli-version.png)
 
-2️⃣ AWS Configuration  
+**2️⃣ AWS Configuration** 
 
 ![AWS Configuration](screenshots/2-aws-configure-list.png)
 
-3️⃣ EC2 Instance Details  
+**3️⃣ EC2 Instance Details**
 
 ![EC2 Instance Details](screenshots/3-ec2-instance-details.png)
 
-4️⃣ EC2 Instance Running  
+**4️⃣ EC2 Instance Running**  
 
 ![EC2 Instance Running](screenshots/4-ec2-instance-running.png)
 
-5️⃣ EC2 Instance Stopped 
+**5️⃣ EC2 Instance Stopped** 
 
 ![EC2 Instance Stopped](screenshots/5-ec2-instance-stopped.png)
 
-6️⃣ Automation Script Code
+**6️⃣ Automation Script Code**
 
 ![Automation Script Code](screenshots/6-automation-script-code.png)
 
-7️⃣ Automation Script Execution
+**7️⃣ Automation Script Execution**
 
 ![Automation Script Execution](screenshots/7-automation-script-execution.png)
 
-8️⃣ EC2 Running After Automation 
+**8️⃣ EC2 Running After Automation** 
 
 ![EC2 Running After Automation](screenshots/8-ec2-running-after-automation.png)
 
