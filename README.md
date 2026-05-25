@@ -74,7 +74,8 @@ aws ec2 stop-instances --instance-ids <instance-id>
 aws ec2 describe-instances
 
 
-🤖 Automation Script
+## 🤖 Automation Script
+
 #!/bin/bash
 
 echo "Checking EC2 instances..."
@@ -87,7 +88,7 @@ aws ec2 stop-instances --instance-ids <instance-id>
 
 echo "Automation Completed!"
 
-📁 Project Structure
+## 📁 Project Structure
 aws-cli-automation/
 │
 ├── automation.sh
@@ -95,7 +96,7 @@ aws-cli-automation/
 └── screenshots/
 
 
-📸 Screenshots
+## 📸 Screenshots
 1️⃣ AWS CLI Version Check
 
 2️⃣ AWS Configuration
@@ -112,7 +113,7 @@ aws-cli-automation/
 
 8️⃣ EC2 Running After Automation
 
-📊 What I Learned
+## 📊 What I Learned
 AWS CLI fundamentals
 EC2 instance lifecycle management
 IAM authentication flow
@@ -120,7 +121,7 @@ Bash scripting automation
 Cloud infrastructure basics
 DevOps workflow using terminal
 
-🏁 Conclusion
+## 🏁 Conclusion
 
 This project demonstrates real-world AWS cloud automation using CLI instead of GUI, simulating DevOps-style infrastructure management.
 
