@@ -129,7 +129,6 @@ echo "Automation Completed!"
 ## 📁 PROJECT STRUCTURE
 
 aws-cli-automation/<br>
-│<br>
 ├── automation.sh<br>
 ├── README.md<br>
 └── screenshots/<br>
