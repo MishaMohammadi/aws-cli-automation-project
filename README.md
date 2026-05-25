@@ -17,9 +17,11 @@ It automates EC2 instance operations such as starting, stopping, and monitoring 
 ## 🧠 Architecture Flow
 
 User (Terminal)
+
 ↓
 AWS CLI Commands
 ↓
+
 IAM Authentication
 ↓
 AWS EC2 Service
@@ -129,9 +131,13 @@ echo "Automation Completed!"
 ## 📁 PROJECT STRUCTURE
 
 aws-cli-automation/
+
 │
+
 ├── automation.sh
+
 ├── README.md
+
 └── screenshots/
 
 ---
@@ -176,14 +182,10 @@ aws-cli-automation/
 
 - AWS CLI fundamentals
 - EC2 instance lifecycle management
-
-IAM authentication flow
-
-Bash scripting automation
-
-Cloud infrastructure basics
-
-DevOps workflow using terminal
+- IAM authentication flow
+- Bash scripting automation
+- Cloud infrastructure basics
+- DevOps workflow using terminal
 
 ---
 
