@@ -17,18 +17,14 @@ It automates EC2 instance operations such as starting, stopping, and monitoring 
 ## 🧠 Architecture Flow
 
 User (Terminal)
-
 ↓
 AWS CLI Commands
-
 ↓
 IAM Authentication
-
 ↓
 AWS EC2 Service
-
 ↓
-Instance Lifecycle Management
+EC2 Instance Lifecycle Management
 
 ---
 
@@ -91,7 +87,7 @@ aws ec2 stop-instances --instance-ids <instance-id>
 
 Stops a running EC2 instance to save cost.
 
-5. Get Instance ID (optional useful command)
+5. Get Instance ID 
 ```bash
 aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
 ```
@@ -135,8 +131,11 @@ echo "Automation Completed!"
 aws-cli-automation/
 
 │
+
 ├── automation.sh
+
 ├── README.md
+
 └── screenshots/
 
 ---
